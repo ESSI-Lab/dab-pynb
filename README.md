@@ -1,5 +1,5 @@
 # DAB-PYNB
-📘 **DAB Python Notebooks**
+## 📘 **DAB Python Notebooks**
 
 This repository contains a small collection of **Jupyter notebooks** demonstrating how to programmatically access **DAB (Discovery and Access Broker)** services using the **`dab-py` Python library**.
 
@@ -41,6 +41,6 @@ Or inside a notebook:
 Access to WHOS and HIS-Central requires a valid API token.
 Tokens are issued after registration with the relevant DAB service providers.
 
-🔗 Related repositories
+## 🔗 Related repositories
 dab-py (Python client library)
 https://github.com/ESSI-Lab/dab-py
