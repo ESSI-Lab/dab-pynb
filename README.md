@@ -7,7 +7,7 @@ The notebooks focus on accessing:
 - **WHOS (WMO Hydrological Observing System)**
 - **HIS-Central**
 
-via the **OGC OM-JSON API**.
+via the **OGC OM-JSON API**, showing how to discover features, retrieve observations, and download data programmatically.
 
 ## 📂 Repository contents
 | Notebook | Description |
@@ -16,15 +16,20 @@ via the **OGC OM-JSON API**.
 | `dab_py_demo_his_central.ipynb` | Tutorial on accessing HIS-Central data using `HISCentralClient` |
 
 Each notebook is self-contained and includes:
-- Client initialization
-- Feature discovery
+- Client initialization with API tokens
+- Feature discovery and filtering
 - Observation retrieval
-- Pagination
+- Optional pagination
 - Conversion to `pandas` DataFrames
 - Basic time-series plotting
+- Optional data download workflow (for HIS-Central)
 
 ## 🚀 Open in Google Colab
-All notebooks can be executed directly in **Google Colab** — no local installation required.
+All notebooks can be executed directly in **Google Colab**, which means:
+- No local installation required
+- Interactive execution in your browser
+- Easy testing and learning
+Click the badges in each notebook to open them in Colab.
 
 ## 🐍 Prerequisites
 These notebooks rely on the **`dab-py`** Python package.
@@ -34,8 +39,9 @@ pip install dab-py
 ```
 Or inside a notebook:
 ```bash
-!pip install dab-py
+!pip install --upgrade dab-py
 ```
+Note: It’s recommended to keep dab-py up-to-date to ensure compatibility with the latest DAB services.
 
 ## 🔑 Authentication
 Access to WHOS and HIS-Central requires a valid API token.
