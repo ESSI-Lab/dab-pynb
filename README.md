@@ -12,8 +12,8 @@ via the **OGC OM-JSON API**, showing how to discover features, retrieve observat
 ## 📂 Repository contents
 | Notebook | Description |
 |--------|-------------|
-| `dab_py_demo_whos.ipynb` | Tutorial on accessing WHOS data using `WHOSClient` |
 | `dab_py_demo_his_central.ipynb` | Tutorial on accessing HIS-Central data using `HISCentralClient` |
+| `dab_py_demo_whos.ipynb` | Tutorial on accessing WHOS data using `WHOSClient` |
 
 Each notebook is self-contained and includes:
 - Client initialization with API tokens
